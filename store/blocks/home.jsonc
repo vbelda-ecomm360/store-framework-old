@@ -7,7 +7,8 @@
   "rich-text": {
     "props": {
       "text": "*Hello, World!*",
-      "textPosition": "CENTER"
+      "textPosition": "RIGHT",
+      "blockClass": "b"
     }
   }
 }
