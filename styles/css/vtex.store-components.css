@@ -9,6 +9,7 @@
     color:black;
     font-weight:bold;
 }
+
 .infoCardCallActionContainer :global(.vtex-button) {
     color: white;
     background-color: gray;
