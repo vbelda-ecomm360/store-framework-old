@@ -13,69 +13,17 @@
         "search-not-found-layout"
       ]
     },
-      // SERACH RESULTS DESKTOP
+      // SERACH RESULTS
       "search-result-layout.desktop": {
         "children": [
-          "flex-layout.row#searchbread",
-          "flex-layout.row#searchtitle",
-          "flex-layout.row#searchcount",
-          "flex-layout.row#searchorderby",
-          "flex-layout.row#searchprevious",
-          "flex-layout.row#searchcontent",
-          "flex-layout.row#searchnavigator",
-          "flex-layout.row#searchmore"
-        ],
-        "props": {
-          "pagination": "show-more",
-          "preventRouteChange": true
-        }
-      },
-        // SEARCH BREADCRUMB
-        "flex-layout.row#searchbread": {
-          "children": [
-            "breadcrumb.search"
-          ]
-        },
-        // SEARCH TITLE
-        "flex-layout.row#searchtitle": {
-          "children": [
-            "search-title.v2"
-          ]
-        },
-        // SEARCH COUNT
-        "flex-layout.row#searchcount": {
-          "children": [
-            "total-products.v2"
-          ]
-        },
-        // SEARCH ORDER BY
-        "flex-layout.row#searchorderby": {
-          "children": [
-            "order-by.v2"
-          ]
-        },
-        // SEARCH ORDER BY
-        "flex-layout.row#searchprevious": {
-          "children": [
-            "search-fetch-previous"
-          ]
-        },
-        // SEARCH ORDER BY
-        "flex-layout.row#searchcontent": {
-          "children": [
-            "search-content"
-          ]
-        },
-        // SEARCH ORDER BY
-        "flex-layout.row#searchnavigator": {
-          "children": [
-            "filter-navigator.v3"
-          ]
-        },
-        // SEARCH ORDER BY
-        "flex-layout.row#searchmore": {
-          "children": [
-            "search-fetch-more"
-          ]
-        }
+          "breadcrumb.search",
+          "search-title.v2",
+          "total-products.v2",
+          "order-by.v2",
+          "search-fetch-previous",
+          "search-content",
+          "filter-navigator.v3",
+          "search-fetch-more"
+        ]
+      }
 }
